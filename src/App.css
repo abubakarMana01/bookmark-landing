@@ -1,0 +1,23 @@
+:root {
+  --primary-soft-blue: hsl(231, 69%, 60%);
+  --primary-soft-red: hsl(0, 94%, 66%);
+  --dark-blue: hsl(229, 31%, 21%);
+  --white: #fff;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+}
+
+body {
+  font-family: "Rubik", sans-serif;
+}
+
+.app {
+  width: 90%;
+  max-width: 1366px;
+  margin: 0 auto;
+  padding-top: 35px;
+}
